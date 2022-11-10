@@ -71,7 +71,7 @@ print("----------------------------")
 # Set up file path for new text file
 txtpath = os.path.join("Analysis", "election_results.txt")
 
-# 
+# Export final analysis
 with open(txtpath, 'w') as text:
     text.write("Election Results\n") 
     text.write("----------------------------\n")

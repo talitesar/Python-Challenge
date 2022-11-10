@@ -65,8 +65,8 @@ print("----------------------------")
 print(f'Total Months: {months}')
 print(f'Total: ${total}')
 print(f'Average Change: ${mean_change}')
-print(f'Greatest Increase in Profits: {max_month} ({max_increase})')
-print(f'Greatest Decrease in Profits: {min_month} ({max_decrease})')
+print(f'Greatest Increase in Profits: {max_month} (${max_increase})')
+print(f'Greatest Decrease in Profits: {min_month} (${max_decrease})')
 
 # Exporting to a new text file
 # Set up file path for new text file
@@ -79,5 +79,5 @@ with open(txtpath, 'w') as text:
     text.write(f'Total Months: {months}\n')
     text.write(f'Total: ${total}\n')
     text.write(f'Average Change: ${mean_change}\n')
-    text.write(f'Greatest Increase in Profits: {max_month} ({max_increase})\n')
-    text.write(f'Greatest Decrease in Profits: {min_month} ({max_decrease})')
+    text.write(f'Greatest Increase in Profits: {max_month} (${max_increase})\n')
+    text.write(f'Greatest Decrease in Profits: {min_month} (${max_decrease})')
